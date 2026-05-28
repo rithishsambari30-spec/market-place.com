@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
-<title>My Clothing Store</title>
+<title>Style Store</title>
 
 <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
 
 </head>
 
@@ -14,51 +13,61 @@
 
 <header>
 
-<div class="logo">
-STYLE STORE
-</div>
-
 <nav>
 
-<a href="#">Home</a>
+<h1>STYLE STORE</h1>
 
-<a href="#">Shop</a>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#shop">Shop</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#category">Category</a></li>
+</ul>
 
-<a href="#">Contact</a>
+<div class="search-bar">
 
-<button>
-Cart
-</button>
+<input
+type="text"
+class="search"
+placeholder="Search products">
+
+<button>Shop Now</button>
+
+<button>Cart 🛒</button>
+
+</div>
 
 </nav>
 
 </header>
 
+<section id="category">
 
-<section class="hero">
-
-<h1>
-Wear Your Style
+<h1 class="title">
+All Categories
 </h1>
 
-<p>
-Premium clothing delivered to your door
-</p>
+<div class="category-layout">
 
-<a class="buy">
-Shop Collection
-</a>
+<div class="left-menu">
 
-</section>
+<a href="#">👕 Shirts</a>
+<a href="#">👗 Dresses</a>
+<a href="#">👖 Jeans</a>
+<a href="#">🧥 Hoodies</a>
+<a href="#">👟 Shoes</a>
+<a href="#">🧒 Kids</a>
+<a href="#">👜 Bags</a>
+<a href="#">⌚ Watches</a>
 
+</div>
 
-<section class="products">
+<div class="right-products">
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
 
-<img src="https://images.unsplash.com/photo-1521572163474">
-
-<h2>Classic Shirt</h2>
+<h3>Classic Shirt</h3>
 
 <p>₹999</p>
 
@@ -66,12 +75,11 @@ Shop Collection
 
 </div>
 
-
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1512436991641">
+<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246">
 
-<h2>Premium Hoodie</h2>
+<h3>Premium Hoodie</h3>
 
 <p>₹1499</p>
 
@@ -79,12 +87,11 @@ Shop Collection
 
 </div>
 
-
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1496747611176">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f">
 
-<h2>Modern Outfit</h2>
+<h3>Modern Outfit</h3>
 
 <p>₹1999</p>
 
@@ -92,31 +99,33 @@ Shop Collection
 
 </div>
 
-</section>
+<div class="card">
 
+<img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234">
 
-<section class="owner">
+<h3>Jeans</h3>
 
-<h2>Owner Details</h2>
+<p>₹1199</p>
 
+<button>Buy Now</button>
 
-<p>
-Name: Sambari rithish
-</p>
+</div>
 
-<p>
-Phone:
-+91 7386066008
-</p>
+</div>
 
-<p>
-Email:
-Rithish sambari30@email.com
-</p>
+</div>
 
 </section>
 
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email:
+rithishsambari30@email.com
+</p>
+
+</section>
 
 </body>
-
 </html>
